@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 let getHomePage = (req, res) => {
-    return res.render("chatbox.ejs");
+    return res.send("Hello , I am a chatbot");
 };
 
 let getWebhook = (req, res) => {
